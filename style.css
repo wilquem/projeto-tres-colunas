@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.card {
+    margin:auto;
+    display:flex;
+    max-width:350px;
+    grid-template-columns:  1fr 1fr 1fr;
+    font-family: 'Lexend Deca', sans-serif;
+    justify-content: center;
+
+}
+
+.card-laranja{
+    max-width: 350px;
+    padding: 50px;
+    background-color: #e28827;
+    border-radius: 10px 0 0 10px;
+}
+
+.card-azulclaro {
+    max-width: 350px;
+    padding: 50px;
+    background-color: #01686f;
+}
+
+.card-azulescuro {
+    max-width: 350px;
+    padding: 50px;
+    background-color: #014141;
+    border-radius: 0 10px 10px 0;
+}
+
+.card-titulo {
+    font-family: 'Big Shoulders Display', sans-serif;
+    padding:0 0 0 10px;
+    font-size: 40px;
+    font-weight:700;
+    text-transform: uppercase;
+    color: hsl(193, 33%, 95%);
+    margin:25px 0;
+}
+
+.card-texto {
+    color: hsl(193, 33%, 95%);
+    margin-bottom: 100px;
+    max-width: 200px;
+    padding: 15px 40px;
+}
+
+.btm {
+    font-family: inherit;
+    font-size: 15px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+#laranja {
+    color: #e28827;
+}
+
+#claro {
+    color: #01686f;
+}
+
+#escuro {
+    color: #014141;
+}
+
+#laranja:hover {
+    color: #ffffff;
+}
+
+#claro:hover {
+    color: #ffffff;
+}
+
+#escuro:hover {
+    color: #ffffff;
+}
+
+
+.btm:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all 0.3s ease-in-out;
+}
