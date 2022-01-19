@@ -3,7 +3,6 @@
 body {
     min-height: 100vh;
     display: flex;
-
 }
 
 .card {
@@ -13,7 +12,6 @@ body {
     grid-template-columns:  1fr 1fr 1fr;
     font-family: 'Lexend Deca', sans-serif;
     justify-content: center;
-
 }
 
 .card-laranja{
@@ -85,7 +83,6 @@ body {
 #escuro:hover {
     color: #ffffff;
 }
-
 
 .btm:hover {
     background-color: transparent;
